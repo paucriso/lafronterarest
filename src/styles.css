@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --ff-primary: 'Roboto', sans-serif;
+    --ff-accent: 'Yellowtail', cursive;
+    --ff-secondary: 'Raleway', sans-serif;
+}
 
 *,
 *::before,
