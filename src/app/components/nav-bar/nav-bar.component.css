@@ -1,0 +1,19 @@
+.nav-item {
+  margin-right: 20px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item a {
+  color: var(--clr-black);
+}
+
+.nav-item a:hover {
+  color: var(--clr-green);
+}

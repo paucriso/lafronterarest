@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faClock } from '@fortawesome/free-solid-svg-icons';
+import { faFacebookSquare, faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-top-header',
@@ -7,7 +8,9 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
   styleUrls: ['./top-header.component.css']
 })
 export class TopHeaderComponent implements OnInit {
-  faFacebook = faFacebook;
+  faFacebookSquare = faFacebookSquare;
+  faInstagramSquare = faInstagramSquare;
+  faClock = faClock;
   constructor() { }
 
   ngOnInit(): void {

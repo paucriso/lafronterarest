@@ -1,0 +1,17 @@
+.top-header {
+  background-color: var(--clr-green);
+  color: white;
+  font-size: var(--fnt-primary);
+  font-size: 1rem;
+  font-weight: 400;
+  border-bottom: 2px solid yellow;
+  padding-block: 10px;
+}
+
+.social-icons {
+  font-size: 1.1rem;
+}
+
+.social-icons fa-icon {
+  margin-right: 10px;
+}
